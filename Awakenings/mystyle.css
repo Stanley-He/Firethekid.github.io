@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+.container {
+    padding: 0;
+}
+.header {
+    background-color: #e9c46a;
+    background: linear-gradient(62deg, #e9c46a 0%, #f4a261 46%, #e76f51 100%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #333;
+    padding: 50px;
+}
+.content {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.btn.btn-primary {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+}
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    margin-bottom: 25px;
+    table-layout: fixed;
+}
+th {
+    background-color: #1E90FF;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #DDDDDD;
+}
+table tr td img {
+    display:inline-block;
+    width: 60px;
+    height:60px;
+    object-fit: cover;
+
+}
+td {
+    text-align: center;
+}
+th, td {
+    padding: 8px;
+}
+.odds-graph{
+    display: block;
+    margin: auto;
+    width:60%;
+    height:auto;
+}

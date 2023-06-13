@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="myscript.js"></script>
+	<link rel="icon" href="Starrygem.png">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Awakenings Probability Simulator</h1>
+		</div>
+
+		<div class="content">
+			<p>Figure it out</p> <!-- Change this, add a description ask chatgpt-->
+
+			<p>Goal: <input type="text" id="textEntered1"></p>
+			<p>Starry Gems: <input type="text" id="textEntered2"></p>
+			<p>Retire Point (up to): <input type="text" id="textEntered3"></p>
+
+			<input type="button" class="btn btn-primary" id="btn_1" value="Calculate"><br><br>
+
+			<div id="textDisplayed1">
+				Successful attempts:<br>
+				Failed attempts:<br>
+				Success rate:<br>
+				Average points:<br>
+			</div>
+		</div>
+		<table>
+			<tr>
+				<th>Awakening</th>
+				<th>Points</th>
+				<th>Retiring</th>
+				<th>Odds</th>
+			</tr>
+			<tr>
+				<td>E-</td>
+				<td>3</td>
+				<td>10</td>
+				<td>4.3%</td>
+			</tr>
+			<tr>
+				<td>E</td>
+				<td>4</td>
+				<td>15</tD>
+				<td>19.8%</td>
+			</tr>
+			<tr>
+				<td>E+</td>
+				<td>5</td>
+				<td>20</td>
+				<td>28.8%</td>
+			</tr>
+			<tr>
+				<td>D-</td>
+				<td>6</td>
+				<td>30</td>
+				<td>20%</td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td>7</td>
+				<td>50</td>
+				<td>9.2%</td>
+			</tr>
+			<tr>
+				<td>D+</td>
+				<td>8</td>
+				<td>70</td>
+				<td>4.8%</td>
+			</tr>
+			<tr>
+				<td>C-</td>
+				<td>9</td>
+				<td>100</td>
+				<td>4.4%</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>10</td>
+				<td>150</td>
+				<td>4.3%</td>
+			</tr>
+			<tr>
+				<td>C+</td>
+				<td>11</td>
+				<td>200</td>
+				<td>2.13%</td>
+			</tr>
+			<tr>
+				<td>B-</td>
+				<td>12</td>
+				<td>300</td>
+				<td>1.62%</td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td>13</td>
+				<td>600</td>
+				<td>0.55%</td>
+			</tr>
+			<tr>
+				<td>B+</td>
+				<td>14</td>
+				<td>1,600</td>
+				<td>0.0745%</td>
+			</tr>
+			<tr>
+				<td>A-</td>
+				<td>15</td>
+				<td>8,000</td>
+				<td>0.015%</td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>16</td>
+				<td>15,000</td>
+				<td>0.0065%</td>
+			</tr>
+			<tr>
+				<td>A+</td>
+				<td>17</td>
+				<td>25,000</td>
+				<td>0.0025%</td>
+			</tr>
+			<tr>
+				<td><img src="SSS.png"></td>
+				<td>18/19/20</td>
+				<td>50,000/100,000/200,000</td>
+				<td>0.0015%</td>
+			</tr>
+		</table>
+		<img src="Odds.png" class="odds-graph">
+	</div>
+
+<!--input-->
+<!--4.3, 19.8, 28.8, 20, 9.2, 4.8, 4.4, 4.3, 2.13, 1.62, 0.55, 0.0745, 0.015, 0.0065, 0.0065, 0.0025, 0.0015
+E-,E,E+,D-,D,D+,C-,C,C+,B-,B,B+,A-,A,A+,S-->
+<!--Starry gems trick, buy using money and buy copies in auction house-->
+<!--choose a color palette-->
+<!--
+	add google analytics https://www.youtube.com/watch?v=_rzF7VwLf_8&ab_channel=TheSchoolofDigitalMarketing
+	https://gamepress.gg/dragalialost/summon-simulator
+-->
+<!--Average number of awakenings-->
+<!--Add Current points?-->
+<!--Average A tiers, S tiers, B tiers-->
+</body>
+</html>
