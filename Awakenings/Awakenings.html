@@ -7,17 +7,27 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="myscript.js"></script>
 	<link rel="icon" href="Starrygem.png">
+	<title>Idleheroes Awakenings Simulator</title>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X536ED2Y1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X536ED2Y1L');
+</script>
 </head>
 
 <body>
 	<div class="container">
 		<div class="header">
-			<h1>Awakenings Probability Simulator</h1>
+			<h1>Idleheroes Awakenings Simulator</h1>
 		</div>
 
 		<div class="content">
-			<p>Figure it out</p> <!-- Change this, add a description ask chatgpt-->
 
+			<p>Current Points: <input type="text" id="textEntered4"></p>
 			<p>Goal: <input type="text" id="textEntered1"></p>
 			<p>Starry Gems: <input type="text" id="textEntered2"></p>
 			<p>Retire Point (up to): <input type="text" id="textEntered3"></p>
@@ -29,6 +39,9 @@
 				Failed attempts:<br>
 				Success rate:<br>
 				Average points:<br>
+				Average number of awakenings performed:<br>
+				<!--Average B copies:<br>
+				Average A- and above copies:<br> -->
 			</div>
 		</div>
 		<table>
@@ -137,18 +150,21 @@
 		</table>
 		<img src="Odds.png" class="odds-graph">
 	</div>
+	<div class="footer">
+		<h1>Hello!</h1>
+		<p><a href="https://firethekid.github.io/" style="color:white;">Home</a></p>
+		<p>Feel free to ask me any questions concerning this website (suggestions too)</p>
+		<p>Reddit: u/Hbeiyan</p>
+		<p>Discord: 69thbang</p>
+		<p>Credit to VincitEgo's <a href="https://vincitego.github.io/imp/imp.html" style="color: white;">Imp's Adventure Simulator</a> for the design</p>
+	</div>
 
 <!--input-->
 <!--4.3, 19.8, 28.8, 20, 9.2, 4.8, 4.4, 4.3, 2.13, 1.62, 0.55, 0.0745, 0.015, 0.0065, 0.0065, 0.0025, 0.0015
 E-,E,E+,D-,D,D+,C-,C,C+,B-,B,B+,A-,A,A+,S-->
 <!--Starry gems trick, buy using money and buy copies in auction house-->
-<!--choose a color palette-->
 <!--
 	add google analytics https://www.youtube.com/watch?v=_rzF7VwLf_8&ab_channel=TheSchoolofDigitalMarketing
-	https://gamepress.gg/dragalialost/summon-simulator
 -->
-<!--Average number of awakenings-->
-<!--Add Current points?-->
-<!--Average A tiers, S tiers, B tiers-->
 </body>
 </html>
