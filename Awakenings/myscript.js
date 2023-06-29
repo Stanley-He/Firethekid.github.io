@@ -108,7 +108,7 @@ $(document).ready(function() {
         var StartingPoints = parseInt($("#textEntered4").val());
         var Goal = parseInt($("#textEntered1").val()) - StartingPoints;
         var StarryGems = parseInt($("#textEntered2").val());
-        var RetireP = parseInt($("#textEntered3").val());
+        var RetireP = document.getElementById("list").value;
 
         for (var i = 100000; i > 0; i--) {
             var x = AwakeningPoints(StarryGems, RetireP);
