@@ -23,7 +23,7 @@ $(document).ready(function() {
                 if (RetireP >= 16) {
                     Gems += 15000;
                 }
-            } else if (odds <= 0.000225) {
+            } else if (odds <= 0.000255) {
                 Points += 15;
                 Acopies += 1;
                 if (RetireP >= 15) {
